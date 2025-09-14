@@ -1,1 +1,122 @@
-hello
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ali Sharmsar — Developer</title>
+  <meta name="description" content="Ali Sharmsar — Delphi, Flutter & ASP.NET Core developer | Personal landing page" />
+  <meta property="og:title" content="Ali Sharmsar — Developer" />
+  <meta property="og:description" content="Delphi, Flutter & ASP.NET Core developer — Portfolio, skills, and contact info." />
+  <meta property="og:url" content="https://alisharmsar.ir/" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23111827'/><text x='50' y='57' font-size='48' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1220;--card:#0f172a;--muted:#94a3b8;--accent:#7c3aed}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#071022 0%, #061427 50%, #071633 100%);color:#e6eef8;line-height:1.5}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));backdrop-filter: blur(6px);border-radius:14px;padding:24px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    .hero{display:flex;gap:20px;align-items:center}
+    .avatar{flex:0 0 120px;height:120px;border-radius:18px;overflow:hidden;border:2px solid rgba(255,255,255,0.06);background:linear-gradient(135deg,var(--accent),#0ea5a4);display:grid;place-items:center}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    h1{margin:0;font-size:26px}
+    h2{margin:8px 0 0;font-size:14px;color:var(--muted)}
+    .tags{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+    .tag{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px;color:#dbeafe}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
+    .panel{background:transparent;padding:16px;border-radius:10px}
+    .about p{color:var(--muted);margin:0}
+    .skills{display:flex;flex-direction:column;gap:8px}
+    .skill{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:10px}
+    .projects{display:flex;flex-direction:column;gap:10px}
+    .proj{padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(124,58,237,0.06), rgba(14,165,164,0.03));}
+    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#06b6d4);color:white}
+    .btn-ghost{border:1px solid rgba(255,255,255,0.06);color:var(--muted);background:transparent}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .socials{display:flex;gap:10px}
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.avatar{flex:0 0 96px;height:96px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="hero">
+        <div class="avatar">
+          <img src="https://alisharmsar.ir/avatar.jpg" alt="Ali's photo" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'100%\' height=\'100%\' fill=\'%237c3aed\'/><text x=\'50%\' y=\'56%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'72\' fill=\'white\' font-family=\'Inter,Arial\'>A</text></svg>'">
+        </div>
+        <div style="flex:1">
+          <h1>Ali Sharmsar</h1>
+          <h2>Delphi • Flutter • ASP.NET Core — Junior Developer</h2>
+          <div class="tags">
+            <span class="tag">Windows & Mobile</span>
+            <span class="tag">FastReport</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">UI & API</span>
+          </div>
+          <div style="margin-top:14px">
+            <a class="btn btn-primary" href="https://alisharmsar.ir/" target="_blank" rel="noopener">Go to Site</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <section class="panel about">
+          <h3>About Me</h3>
+          <p style="margin-top:8px">Hi, I'm Ali — a developer with experience in Delphi and mobile development with Flutter. Currently working on Orash accounting software, with hands-on knowledge in FastReport and SQL Server. I’m seeking opportunities in frontend and API development.</p>
+
+          <div style="margin-top:14px">
+            <h4>Skills</h4>
+            <div class="skills" style="margin-top:8px">
+              <div class="skill"><span>Delphi / VCL</span><span>Intermediate - Strong</span></div>
+              <div class="skill"><span>Flutter (Dart)</span><span>Intermediate</span></div>
+              <div class="skill"><span>ASP.NET Core Web API</span><span>Learning</span></div>
+              <div class="skill"><span>SQL Server / T-SQL</span><span>Intermediate</span></div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px">
+            <h4>Projects</h4>
+            <div class="projects">
+              <div class="proj"><strong>OrashMIS</strong> — Accounting software (Delphi + SQL Server). Data entry, reporting, and financial automation.</div>
+              <div class="proj"><strong>Workout App</strong> — Flutter sample project for tracking gym routines.</div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="panel">
+          <h3>Contact</h3>
+          <div class="contact" id="contact">
+            <div><strong>Email:</strong> <a href="mailto:hello@alisharmsar.ir">hello@alisharmsar.ir</a></div>
+            <div><strong>Website:</strong> <a href="https://alisharmsar.ir/">alisharmsar.ir</a></div>
+            <div><strong>LinkedIn:</strong> <a href="https://linkedin.com/" target="_blank" rel="noopener">@your-linkedin</a></div>
+            <div><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">@your-github</a></div>
+          </div>
+
+          <div style="margin-top:14px">
+            <h4>Quick Contact</h4>
+            <a class="btn btn-primary" href="mailto:hello@alisharmsar.ir">Send Email</a>
+          </div>
+
+          <div style="margin-top:16px">
+            <h4>Follow Me</h4>
+            <div class="socials">
+              <a aria-label="twitter" href="#" title="Twitter" onclick="event.preventDefault()">🐦</a>
+              <a aria-label="telegram" href="#" title="Telegram" onclick="event.preventDefault()">✈️</a>
+              <a aria-label="instagram" href="#" title="Instagram" onclick="event.preventDefault()">📸</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        Built with ❤️ — To upload: place this file in your <code>public_html</code> or root hosting directory. If you’d like an English + Persian switcher or a PHP/Netlify contact form, let me know.
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
