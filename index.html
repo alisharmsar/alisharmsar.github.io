@@ -1,122 +1,316 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ali Sharmsar — Developer</title>
-  <meta name="description" content="Ali Sharmsar — Delphi, Flutter & ASP.NET Core developer | Personal landing page" />
-  <meta property="og:title" content="Ali Sharmsar — Developer" />
-  <meta property="og:description" content="Delphi, Flutter & ASP.NET Core developer — Portfolio, skills, and contact info." />
-  <meta property="og:url" content="https://alisharmsar.ir/" />
-  <meta name="theme-color" content="#0f172a" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23111827'/><text x='50' y='57' font-size='48' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Ali Sharmsar — Senior Software Developer specializing in Delphi, Flutter, C#, ASP.NET Core, and SQL Server.">
+  <meta property="og:title" content="Ali Sharmsar — Senior Software Developer">
+  <meta property="og:description" content="Building reliable desktop, mobile, and backend software.">
+  <meta property="og:url" content="https://alisharmsar.ir/">
+  <title>Ali Sharmsar — Senior Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%237c5cff'/%3E%3Ctext x='50' y='65' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
   <style>
-    :root{--bg:#0b1220;--card:#0f172a;--muted:#94a3b8;--accent:#7c3aed}
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0;font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#071022 0%, #061427 50%, #071633 100%);color:#e6eef8;line-height:1.5}
-    .container{max-width:980px;margin:36px auto;padding:24px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));backdrop-filter: blur(6px);border-radius:14px;padding:24px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
-    .hero{display:flex;gap:20px;align-items:center}
-    .avatar{flex:0 0 120px;height:120px;border-radius:18px;overflow:hidden;border:2px solid rgba(255,255,255,0.06);background:linear-gradient(135deg,var(--accent),#0ea5a4);display:grid;place-items:center}
-    .avatar img{width:100%;height:100%;object-fit:cover}
-    h1{margin:0;font-size:26px}
-    h2{margin:8px 0 0;font-size:14px;color:var(--muted)}
-    .tags{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
-    .tag{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px;color:#dbeafe}
-    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
-    .panel{background:transparent;padding:16px;border-radius:10px}
-    .about p{color:var(--muted);margin:0}
-    .skills{display:flex;flex-direction:column;gap:8px}
-    .skill{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:10px}
-    .projects{display:flex;flex-direction:column;gap:10px}
-    .proj{padding:12px;border-radius:10px;background:linear-gradient(90deg, rgba(124,58,237,0.06), rgba(14,165,164,0.03));}
-    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
-    .btn-primary{background:linear-gradient(90deg,var(--accent),#06b6d4);color:white}
-    .btn-ghost{border:1px solid rgba(255,255,255,0.06);color:var(--muted);background:transparent}
-    .contact{display:flex;flex-direction:column;gap:8px}
-    .socials{display:flex;gap:10px}
-    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:13px}
-    @media (max-width:880px){.grid{grid-template-columns:1fr}.avatar{flex:0 0 96px;height:96px}}
+    :root {
+      color-scheme: dark;
+      --bg: #080b12;
+      --surface: #101520;
+      --surface-2: #141b29;
+      --text: #f2f5fc;
+      --muted: #9ba7bb;
+      --line: rgba(255,255,255,.09);
+      --accent: #9277ff;
+      --accent-2: #55d6be;
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body {
+      margin: 0; background:
+        radial-gradient(ellipse at 82% 2%, rgba(124,92,255,.16), transparent 32rem),
+        radial-gradient(ellipse at 4% 35%, rgba(85,214,190,.07), transparent 28rem),
+        var(--bg);
+      color: var(--text); font-family: "DM Sans", sans-serif; line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: min(var(--max), calc(100% - 44px)); margin-inline: auto; }
+    .nav-wrap { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid transparent; background: rgba(8,11,18,.78); backdrop-filter: blur(18px); }
+    nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; font: 700 17px "Space Grotesk", sans-serif; letter-spacing: -.4px; }
+    .brand-mark { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 11px; background: linear-gradient(135deg,var(--accent),#5b46c8); box-shadow: 0 5px 24px #9277ff38; }
+    .brand-mark span { font-size: 18px; }
+    .nav-links { display: flex; align-items: center; gap: 27px; color: var(--muted); font-size: 13px; font-weight: 600; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta { border: 1px solid var(--line); border-radius: 10px; padding: 9px 14px; color: var(--text) !important; }
+    .hero { padding: 105px 0 88px; display: grid; grid-template-columns: 1.25fr .75fr; align-items: center; gap: 60px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; padding: 7px 11px; border: 1px solid rgba(85,214,190,.23); border-radius: 99px; color: #8be8d6; background: rgba(85,214,190,.06); font-size: 12px; font-weight: 700; letter-spacing: .5px; }
+    .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--accent-2); box-shadow: 0 0 0 4px rgba(85,214,190,.12); }
+    h1,h2,h3,p { margin-top: 0; }
+    h1 { margin: 22px 0 18px; font: 700 clamp(42px, 6.2vw, 76px)/1.04 "Space Grotesk", sans-serif; letter-spacing: -3.5px; }
+    h1 .gradient { background: linear-gradient(105deg,#fff 10%,#b8aaff 57%,#76e7d3 100%); color: transparent; background-clip: text; -webkit-background-clip: text; }
+    .hero-copy { max-width: 630px; color: var(--muted); font-size: 17px; line-height: 1.85; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 29px; }
+    .btn { min-height: 46px; padding: 12px 17px; border-radius: 11px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; font-size: 13px; font-weight: 700; transition: transform .2s, border-color .2s, background .2s; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: linear-gradient(115deg,#9a83ff,#7155ed); color: white; box-shadow: 0 9px 30px #7c5cff30; }
+    .btn-secondary { border: 1px solid var(--line); background: rgba(255,255,255,.025); }
+    .hero-note { margin-top: 27px; display: flex; align-items: center; gap: 10px; color: #77849a; font-size: 12px; }
+    .hero-note strong { color: #cbd4e4; font-weight: 600; }
+    .terminal { border: 1px solid rgba(255,255,255,.11); border-radius: 18px; overflow: hidden; background: linear-gradient(145deg,rgba(20,27,41,.96),rgba(12,16,25,.96)); box-shadow: 0 30px 90px rgba(0,0,0,.32); transform: rotate(1.5deg); }
+    .terminal-top { display: flex; align-items: center; gap: 7px; padding: 15px 17px; border-bottom: 1px solid var(--line); color: #8290a6; font-size: 11px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: #ff6c6c; } .dot:nth-child(2) { background: #ffca67; } .dot:nth-child(3) { background: #63d9a5; }
+    .terminal-title { margin-left: auto; }
+    .code { padding: 25px 22px 27px; font: 12px/2.15 ui-monospace,SFMono-Regular,Consolas,monospace; color: #b7c3d6; overflow-wrap: anywhere; }
+    .code .comment { color: #64748b; } .code .key { color: #b9a8ff; } .code .string { color: #83e6d2; } .code .fn { color: #f4c77a; } .code .indent { padding-left: 18px; }
+    .terminal-bottom { padding: 13px 22px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 12px; color: #7f8da3; font-size: 10px; }
+    .terminal-bottom span:last-child { color: #7fe2c8; }
+    .section { padding: 76px 0; }
+    .section-head { max-width: 650px; margin-bottom: 32px; }
+    .kicker { color: var(--accent-2); font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; }
+    h2 { margin: 9px 0 12px; font: 700 clamp(28px,4vw,40px)/1.2 "Space Grotesk",sans-serif; letter-spacing: -1.2px; }
+    .section-intro { color: var(--muted); margin-bottom: 0; }
+    .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; }
+    .card { background: linear-gradient(145deg,rgba(20,27,41,.84),rgba(14,19,29,.78)); border: 1px solid var(--line); border-radius: 16px; padding: 25px; }
+    .about-card p { color: var(--muted); margin-bottom: 0; }
+    .about-card p + p { margin-top: 14px; }
+    .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .stat { padding: 21px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.018); }
+    .stat strong { display: block; font: 700 27px "Space Grotesk",sans-serif; letter-spacing: -1px; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .skills-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .skill-card { padding: 21px; min-height: 175px; transition: transform .2s,border-color .2s; }
+    .skill-card:hover,.project:hover { transform: translateY(-3px); border-color: rgba(146,119,255,.42); }
+    .skill-icon { width: 42px; height: 42px; display: grid; place-items: center; margin-bottom: 16px; border-radius: 12px; color: #c6baff; background: rgba(146,119,255,.12); font: 700 13px "Space Grotesk",sans-serif; }
+    .skill-card h3 { font: 600 16px "Space Grotesk",sans-serif; margin-bottom: 5px; }
+    .skill-card p { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+    .level { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #b9aaff; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .level-bar { height: 3px; border-radius: 4px; background: #252d3d; margin-top: 9px; overflow: hidden; }
+    .level-bar span { display: block; height: 100%; width: 92%; border-radius: 4px; background: linear-gradient(90deg,var(--accent),var(--accent-2)); }
+    .language-card { margin-top: 16px; display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+    .language-card h3 { margin-bottom: 5px; font: 600 17px "Space Grotesk",sans-serif; }
+    .language-card p { color: var(--muted); margin: 0; font-size: 13px; }
+    .language-level { white-space: nowrap; border: 1px solid rgba(85,214,190,.22); color: #8be8d6; background: rgba(85,214,190,.06); border-radius: 10px; padding: 9px 12px; font-size: 12px; font-weight: 700; }
+    .projects-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 16px; }
+    .project { min-height: 230px; padding: 24px; transition: transform .2s,border-color .2s; }
+    .project-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 23px; }
+    .project-symbol { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: rgba(85,214,190,.09); color: #83e6d2; font: 700 13px "Space Grotesk",sans-serif; }
+    .project-type { color: #7f8da3; font-size: 11px; }
+    .project h3 { margin-bottom: 9px; font: 600 19px "Space Grotesk",sans-serif; }
+    .project p { color: var(--muted); font-size: 13px; margin-bottom: 17px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+    .chip { padding: 5px 9px; border: 1px solid var(--line); border-radius: 7px; color: #b8c3d5; font-size: 10px; }
+    .approach-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .approach-card h3 { font: 600 16px "Space Grotesk",sans-serif; margin: 14px 0 7px; }
+    .approach-card p { color: var(--muted); font-size: 13px; margin: 0; }
+    .approach-num { color: var(--accent-2); font: 700 12px "Space Grotesk",sans-serif; }
+    .contact-panel { padding: clamp(25px,5vw,48px); display: flex; align-items: center; justify-content: space-between; gap: 28px; background: radial-gradient(ellipse at 100% 0%,rgba(146,119,255,.18),transparent 45%),var(--surface); }
+    .contact-panel h2 { margin-top: 0; }
+    .contact-panel p { color: var(--muted); max-width: 580px; margin-bottom: 0; }
+    .contact-actions { display: flex; flex-wrap: wrap; gap: 10px; flex-shrink: 0; }
+    footer { padding: 26px 0 32px; border-top: 1px solid var(--line); color: #77849a; font-size: 12px; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; align-items: center; }
+    .footer-links { display: flex; gap: 18px; }
+    .footer-links a:hover { color: var(--text); }
+    @media (max-width: 850px) {
+      .hero { grid-template-columns: 1fr; gap: 42px; padding-top: 75px; }
+      .terminal { max-width: 570px; width: 100%; transform: none; }
+      .skills-grid { grid-template-columns: repeat(2,1fr); }
+      .contact-panel { align-items: flex-start; flex-direction: column; }
+    }
+    @media (max-width: 600px) {
+      .wrap { width: min(100% - 30px,var(--max)); }
+      nav { min-height: 66px; }
+      .nav-links { gap: 14px; font-size: 12px; }
+      .nav-links a:not(.nav-cta) { display: none; }
+      .hero { padding: 61px 0 58px; }
+      h1 { letter-spacing: -2px; }
+      .hero-copy { font-size: 15px; }
+      .section { padding: 54px 0; }
+      .about-grid,.projects-grid,.approach-grid { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .skill-card { padding: 16px; min-height: 175px; }
+      .skill-card h3 { font-size: 14px; }
+      .language-card { align-items: flex-start; flex-direction: column; gap: 12px; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+      .code { font-size: 11px; padding-inline: 15px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *,*::before,*::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="hero">
-        <div class="avatar">
-          <img src="https://alisharmsar.ir/avatar.jpg" alt="Ali's photo" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'100%\' height=\'100%\' fill=\'%237c3aed\'/><text x=\'50%\' y=\'56%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'72\' fill=\'white\' font-family=\'Inter,Arial\'>A</text></svg>'">
-        </div>
-        <div style="flex:1">
-          <h1>Ali Sharmsar</h1>
-          <h2>Delphi • Flutter • ASP.NET Core</h2>
-          <div class="tags">
-            <span class="tag">Windows & Mobile</span>
-            <span class="tag">FastReport</span>
-            <span class="tag">SQL Server</span>
-            <span class="tag">UI & API</span>
-          </div>
-          <div style="margin-top:14px">
-            <a class="btn btn-primary" href="https://alisharmsar.ir/" target="_blank" rel="noopener">Go to Site</a>
-            <a class="btn btn-ghost" href="#contact">Contact</a>
-          </div>
-        </div>
+  <div class="nav-wrap">
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ali Sharmsar home">
+        <span class="brand-mark"><span>A</span></span>
+        <span>ALI SHARMSAR<span style="color:var(--accent);">.</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-cta" href="#contact">Let's talk ↗</a>
       </div>
-
-      <div class="grid">
-        <section class="panel about">
-          <h3>About Me</h3>
-          <p style="margin-top:8px">Hi, I'm Ali — a developer with experience in Delphi and mobile development with Flutter. Currently working on Orash accounting software, with hands-on knowledge in FastReport and SQL Server. I’m seeking opportunities in frontend and API development.</p>
-
-          <div style="margin-top:14px">
-            <h4>Skills</h4>
-            <div class="skills" style="margin-top:8px">
-              <div class="skill"><span>Delphi / VCL</span><span>Senior</span></div>
-              <div class="skill"><span>Flutter (Dart)</span><span>Senior</span></div>
-              <div class="skill"><span>ASP.NET Core Web API</span><span>Intermediate</span></div>
-              <div class="skill"><span>SQL Server / T-SQL</span><span>Intermediate</span></div>
-            </div>
-          </div>
-
-          <div style="margin-top:14px">
-            <h4>Projects</h4>
-            <div class="projects">
-              <div class="proj"><strong>OrashMIS</strong> — Accounting software (Delphi + SQL Server). Data entry, reporting, and financial automation.</div>
-              <div class="proj"><strong>Workout App</strong> — Flutter sample project for tracking gym routines.</div>
-            </div>
-          </div>
-        </section>
-
-        <aside class="panel">
-          <h3>Contact</h3>
-          <div class="contact" id="contact">
-            <div><strong>Email:</strong> <a href="mailto:hello@alisharmsar.ir">hello@alisharmsar.ir</a></div>
-            <div><strong>Website:</strong> <a href="https://alisharmsar.ir/">alisharmsar.ir</a></div>
-            <div><strong>LinkedIn:</strong> <a href="https://linkedin.com/" target="_blank" rel="noopener">@your-linkedin</a></div>
-            <div><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">@your-github</a></div>
-          </div>
-
-          <div style="margin-top:14px">
-            <h4>Quick Contact</h4>
-            <a class="btn btn-primary" href="mailto:hello@alisharmsar.ir">Send Email</a>
-          </div>
-
-          <div style="margin-top:16px">
-            <h4>Follow Me</h4>
-            <div class="socials">
-              <a aria-label="twitter" href="#" title="Twitter" onclick="event.preventDefault()">🐦</a>
-              <a aria-label="telegram" href="#" title="Telegram" onclick="event.preventDefault()">✈️</a>
-              <a aria-label="instagram" href="#" title="Instagram" onclick="event.preventDefault()">📸</a>
-            </div>
-          </div>
-        </aside>
-      </div>
-
-      <footer>
-        Built with ❤️ — To upload: place this file in your <code>public_html</code> or root hosting directory. If you’d like an English + Persian switcher or a PHP/Netlify contact form, let me know.
-      </footer>
-    </div>
+    </nav>
   </div>
+
+  <main>
+    <header class="hero wrap" id="home">
+      <div>
+        <div class="eyebrow"><span class="pulse"></span> SOFTWARE DEVELOPER · OPEN TO CONNECTIONS</div>
+        <h1>Turning ideas into<br><span class="gradient">reliable software.</span></h1>
+        <p class="hero-copy">I'm Ali Sharmsar, a Senior Software Developer working across desktop, mobile, and backend development. I build practical applications with a focus on maintainability, dependable data, and solving real-world problems.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="btn btn-secondary" href="mailto:hello@alisharmsar.ir">Contact me <span>↗</span></a>
+        </div>
+        <div class="hero-note"><strong>Core stack</strong><span>Delphi · Flutter · C# · ASP.NET Core · SQL Server</span></div>
+      </div>
+      <div class="terminal" aria-label="Developer code card">
+        <div class="terminal-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="terminal-title">developer.profile</span></div>
+        <div class="code">
+          <div><span class="comment">// A little about how I work</span></div>
+          <div><span class="key">const</span> developer = {</div>
+          <div class="indent">name: <span class="string">"Ali Sharmsar"</span>,</div>
+          <div class="indent">role: <span class="string">"Senior Software Developer"</span>,</div>
+          <div class="indent">specialties: [</div>
+          <div class="indent" style="padding-left:36px"><span class="string">"Desktop applications"</span>,</div>
+          <div class="indent" style="padding-left:36px"><span class="string">"Mobile development"</span>,</div>
+          <div class="indent" style="padding-left:36px"><span class="string">"Backend & APIs"</span></div>
+          <div class="indent">],</div>
+          <div class="indent">mindset: <span class="fn">"Build it well."</span></div>
+          <div>};</div>
+        </div>
+        <div class="terminal-bottom"><span>● Available for meaningful projects</span><span>UTF-8 · OK</span></div>
+      </div>
+    </header>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">01 / About</span>
+          <h2>Engineering with a practical mindset.</h2>
+          <p class="section-intro">From business software to mobile apps and web APIs, I enjoy building tools that make complex workflows simpler.</p>
+        </div>
+        <div class="about-grid">
+          <div class="card about-card">
+            <p>My work spans desktop application development with Delphi, cross-platform mobile development with Flutter, and backend development with C# and ASP.NET Core.</p>
+            <p>I've worked with accounting and business software, SQL Server databases, reporting workflows, and application integrations. I value readable code, thoughtful architecture, and solutions that hold up in real-world use.</p>
+            <p>I'm continually improving my backend engineering skills while bringing hands-on development experience to every project.</p>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>Desktop</strong><span>Delphi & VCL applications</span></div>
+            <div class="stat"><strong>Mobile</strong><span>Flutter & Dart</span></div>
+            <div class="stat"><strong>Backend</strong><span>C# & ASP.NET Core APIs</span></div>
+            <div class="stat"><strong>Data</strong><span>SQL Server & T-SQL</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">02 / Technical skills</span>
+          <h2>Tools I use to build.</h2>
+          <p class="section-intro">A broad development toolkit across established desktop systems, modern mobile apps, and backend services.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="card skill-card"><div class="skill-icon">De</div><h3>Delphi / VCL</h3><p>Desktop applications, business logic, and legacy-system development.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">Fl</div><h3>Flutter / Dart</h3><p>Cross-platform mobile applications, API integration, and background tasks.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">C#</div><h3>C# / .NET</h3><p>Application logic, clean code, and modern .NET development.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">API</div><h3>ASP.NET Core</h3><p>Web APIs, services, DTOs, validation, and backend architecture.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">SQL</div><h3>SQL Server</h3><p>Relational data, T-SQL, queries, and application data access.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">FR</div><h3>FastReport</h3><p>Business reports and reporting workflows for desktop software.</p><div class="level"><span>Expertise</span><span>Senior</span></div><div class="level-bar"><span></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">Git</div><h3>Git & Version Control</h3><p>Source control and collaborative development workflows.</p><div class="level"><span>Tooling</span><span>Experienced</span></div><div class="level-bar"><span style="width:85%"></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">DB</div><h3>Data Access</h3><p>Dapper, SQL-based workflows, and structured data integration.</p><div class="level"><span>Tooling</span><span>Experienced</span></div><div class="level-bar"><span style="width:85%"></span></div></article>
+          <article class="card skill-card"><div class="skill-icon">UI</div><h3>App Integration</h3><p>Connecting user-facing applications with services and business systems.</p><div class="level"><span>Focus</span><span>Experienced</span></div><div class="level-bar"><span style="width:85%"></span></div></article>
+        </div>
+        <div class="card language-card">
+          <div><h3>English communication</h3><p>Advanced / professional working proficiency · Technical reading, documentation, and developer communication.</p></div>
+          <span class="language-level">ADVANCED ENGLISH</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">03 / Selected work</span>
+          <h2>Software built around real workflows.</h2>
+          <p class="section-intro">A selection of the kinds of systems and applications I've worked on.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="card project">
+            <div class="project-top"><div class="project-symbol">MIS</div><span class="project-type">DESKTOP · BUSINESS SOFTWARE</span></div>
+            <h3>OrashMIS</h3>
+            <p>Accounting and business software built with Delphi and SQL Server, including financial data entry, treasury workflows, and reporting.</p>
+            <div class="chips"><span class="chip">Delphi</span><span class="chip">SQL Server</span><span class="chip">FastReport</span><span class="chip">Accounting</span></div>
+          </article>
+          <article class="card project">
+            <div class="project-top"><div class="project-symbol">APP</div><span class="project-type">MOBILE · BUSINESS APP</span></div>
+            <h3>Orash Order Taker</h3>
+            <p>A Flutter mobile application for order-taking workflows, integrating customer and product data with a web service and optional payment-related flows.</p>
+            <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">REST API</span><span class="chip">Integration</span></div>
+          </article>
+          <article class="card project">
+            <div class="project-top"><div class="project-symbol">CHQ</div><span class="project-type">MOBILE · PRODUCTIVITY</span></div>
+            <h3>ChequeAssistant</h3>
+            <p>A Flutter application project focused on cheque-related workflows, including modernizing background work with Android WorkManager.</p>
+            <div class="chips"><span class="chip">Flutter</span><span class="chip">Android</span><span class="chip">WorkManager</span></div>
+          </article>
+          <article class="card project">
+            <div class="project-top"><div class="project-symbol">API</div><span class="project-type">BACKEND · WEB API</span></div>
+            <h3>ASP.NET Core API Development</h3>
+            <p>Backend development practice focused on structured APIs, service layers, DTOs, validation, and SQL Server data access.</p>
+            <div class="chips"><span class="chip">C#</span><span class="chip">ASP.NET Core</span><span class="chip">Dapper</span><span class="chip">SQL Server</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">04 / My approach</span>
+          <h2>Good software is more than code.</h2>
+        </div>
+        <div class="approach-grid">
+          <article class="card approach-card"><span class="approach-num">01 — Understand</span><h3>Start with the problem</h3><p>Understand the workflow and requirements before choosing an implementation.</p></article>
+          <article class="card approach-card"><span class="approach-num">02 — Build</span><h3>Keep it maintainable</h3><p>Prefer clear structure, reusable components, and code that's easier to extend.</p></article>
+          <article class="card approach-card"><span class="approach-num">03 — Improve</span><h3>Learn continuously</h3><p>Keep exploring better tools and patterns to make software more dependable.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="card contact-panel">
+          <div><span class="kicker">05 / Contact</span><h2>Have a project in mind?</h2><p>I'm always happy to connect with developers, teams, and people building useful software. Reach out and let's talk.</p></div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:hello@alisharmsar.ir">Email me ↗</a>
+            <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> Ali Sharmsar. Built with care.</span>
+      <div class="footer-links"><a href="#home">Back to top ↑</a><a href="mailto:hello@alisharmsar.ir">Email</a></div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
