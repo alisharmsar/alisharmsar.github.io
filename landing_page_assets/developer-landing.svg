@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 560" fill="none">
   <defs>
     <linearGradient id="panel" x1="104" y1="48" x2="607" y2="516" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#f0eff9"/></linearGradient>
-    <linearGradient id="screen" x1="192" y1="117" x2="488" y2="376" gradientUnits="userSpaceOnUse"><stop stop-color="#242a46"/><stop offset="1" stop-color="#11172b"/></linearGradient>
+    <linearGradient id="screen" x1="192" y1="117" x2="488" y2="376" gradientUnits="userSpaceOnUse"><stop stop-color="#f5faff"/><stop offset="1" stop-color="#e7f2fb"/></linearGradient>
     <linearGradient id="accent" x1="226" y1="170" x2="440" y2="347" gradientUnits="userSpaceOnUse"><stop stop-color="#6477d6"/><stop offset="1" stop-color="#8a68bd"/></linearGradient>
     <filter id="shadow" x="74" y="40" width="552" height="490" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="18"/></filter>
   </defs>
@@ -13,9 +13,9 @@
   <path d="M142 66h416a18 18 0 0 1 18 18v31H124V84a18 18 0 0 1 18-18Z" fill="#f6f6fa"/>
   <circle cx="150" cy="91" r="5" fill="#d28b79"/><circle cx="168" cy="91" r="5" fill="#d4b478"/><circle cx="186" cy="91" r="5" fill="#8eaa9b"/>
   <rect x="148" y="132" width="404" height="252" rx="9" fill="url(#screen)"/>
-  <rect x="163" y="147" width="114" height="222" rx="5" fill="#1a2037"/>
-  <rect x="176" y="164" width="70" height="7" rx="3.5" fill="#7a83aa"/><rect x="176" y="185" width="83" height="6" rx="3" fill="#444d70"/><rect x="176" y="204" width="69" height="6" rx="3" fill="#444d70"/><rect x="176" y="223" width="78" height="6" rx="3" fill="#444d70"/><rect x="176" y="242" width="61" height="6" rx="3" fill="#444d70"/>
-  <path d="m303 196 26 20-26 20" stroke="#8d9bee" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="m353 237 25-42" stroke="#d4a681" stroke-width="7" stroke-linecap="round"/><rect x="397" y="194" width="104" height="9" rx="4.5" fill="#92a1df"/><rect x="397" y="216" width="80" height="7" rx="3.5" fill="#6f7ca9"/><rect x="303" y="267" width="197" height="7" rx="3.5" fill="#455071"/><rect x="303" y="287" width="163" height="7" rx="3.5" fill="#455071"/><rect x="303" y="307" width="183" height="7" rx="3.5" fill="#455071"/>
+  <rect x="163" y="147" width="114" height="222" rx="5" fill="#edf5fb"/>
+  <rect x="176" y="164" width="70" height="7" rx="3.5" fill="#8494a5"/><rect x="176" y="185" width="83" height="6" rx="3" fill="#c4d3df"/><rect x="176" y="204" width="69" height="6" rx="3" fill="#c4d3df"/><rect x="176" y="223" width="78" height="6" rx="3" fill="#c4d3df"/><rect x="176" y="242" width="61" height="6" rx="3" fill="#c4d3df"/>
+  <path d="m303 196 26 20-26 20" stroke="#0a66c2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="m353 237 25-42" stroke="#c28265" stroke-width="7" stroke-linecap="round"/><rect x="397" y="194" width="104" height="9" rx="4.5" fill="#6e9fd0"/><rect x="397" y="216" width="80" height="7" rx="3.5" fill="#adc4d8"/><rect x="303" y="267" width="197" height="7" rx="3.5" fill="#b9ccdc"/><rect x="303" y="287" width="163" height="7" rx="3.5" fill="#b9ccdc"/><rect x="303" y="307" width="183" height="7" rx="3.5" fill="#b9ccdc"/>
   <path d="M104 418h492l-31 39H139l-35-39Z" fill="#c6c8d4"/><path d="M296 420h110l-10 18h-92l-8-18Z" fill="#aeb1c1"/>
   <rect x="416" y="352" width="191" height="104" rx="18" fill="#fff" stroke="#e4e2ed" stroke-width="2"/><rect x="435" y="371" width="35" height="35" rx="11" fill="#e9eafb"/><path d="m444 388 8-9 9 9-9 9-8-9Z" fill="#6879cc"/><rect x="481" y="376" width="99" height="7" rx="3.5" fill="#555d77"/><rect x="481" y="391" width="73" height="6" rx="3" fill="#b3b5c2"/><rect x="435" y="419" width="152" height="19" rx="9.5" fill="#f1f0f8"/><rect x="435" y="419" width="96" height="19" rx="9.5" fill="url(#accent)"/>
   <rect x="74" y="213" width="112" height="74" rx="16" fill="#fff" stroke="#e5e2ed" stroke-width="2"/><circle cx="99" cy="250" r="13" fill="#f1e4dc"/><path d="M94 250h10m-5-5v10" stroke="#b67b64" stroke-width="2" stroke-linecap="round"/><rect x="120" y="242" width="48" height="6" rx="3" fill="#777d91"/><rect x="120" y="255" width="36" height="5" rx="2.5" fill="#c1c2ca"/>
