@@ -152,8 +152,9 @@
     .btn-primary { background:#0a66c2; box-shadow:0 5px 14px rgba(10,102,194,.16); }
     .btn-secondary { background:#fff; border-color:#b8c6d3; }
     .hero { grid-template-columns:1.04fr .96fr; gap:54px; padding-top:72px; padding-bottom:60px; }
-    .hero-visual { max-width:510px; justify-self:end; padding:0; border-radius:24px; background:transparent; }
+    .hero-visual { position:relative; max-width:510px; justify-self:end; padding:0; margin-bottom:22px; border-radius:24px; background:transparent; }
     .landing-illustration { display:block; width:100%; height:auto; border:1px solid #d9e1e8; border-radius:24px; box-shadow:0 12px 30px rgba(36,54,75,.07); }
+    .hero-portrait { position:absolute; width:142px; height:142px; left:-22px; bottom:-22px; border:6px solid #fff; border-radius:50%; object-fit:cover; object-position:center 25%; box-shadow:0 8px 25px rgba(36,54,75,.17); }
     .card { background:#fff; border-color:#d9e1e8; box-shadow:0 2px 8px rgba(36,54,75,.035); }
     .stat { background:#f8fafb; border-color:#d9e1e8; }
     .kicker,.approach-num,.level { color:#0a66c2; }
@@ -165,7 +166,7 @@
     .contact-panel { background:linear-gradient(115deg,#fff,#f5faff); }
     .contact-phone a { color:#0a66c2; }
     @media (max-width:850px) { .hero { grid-template-columns:1fr .85fr; gap:28px; } .hero-visual { max-width:390px; } }
-    @media (max-width:650px) { .hero { grid-template-columns:1fr; gap:28px; padding-top:48px; } .hero-visual { max-width:500px; width:100%; justify-self:center; } .landing-illustration { border-radius:18px; } }
+    @media (max-width:650px) { .hero { grid-template-columns:1fr; gap:28px; padding-top:48px; } .hero-visual { max-width:500px; width:calc(100% - 12px); justify-self:center; margin-left:12px; } .landing-illustration { border-radius:18px; } .hero-portrait { width:112px; height:112px; left:-12px; bottom:-20px; border-width:5px; } }
   </style>
 </head>
 <body>
@@ -196,7 +197,7 @@
         </div>
         <div class="hero-note"><strong>Core stack</strong><span>Delphi · Flutter · C# · ASP.NET Core · SQL Server</span></div>
       </div>
-      <div class="hero-visual"><img class="landing-illustration" src="landing_page_assets/developer-landing.svg" alt="Illustration of a software workspace with an application window and project dashboard" fetchpriority="high"></div>
+      <div class="hero-visual"><img class="landing-illustration" src="landing_page_assets/developer-landing.svg" alt="Illustration of a software workspace with an application window and project dashboard" fetchpriority="high"><img class="hero-portrait" src="landing_page_assets/ali-sharmsar.png" alt="Ali Sharmsar" loading="lazy"></div>
     </header>
 
     <section class="section" id="about">
